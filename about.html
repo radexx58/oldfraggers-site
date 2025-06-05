@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda - Old Fraggers Community</title>
+    <meta name="description" content="Old Fraggers Community hakkında bilgi. Misyonumuz, vizyonumuz ve ekibimiz.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen">
+    
+    <!-- Header -->
+    <header class="border-b border-slate-800 bg-slate-900/95 backdrop-blur-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="flex items-center space-x-3 hover:opacity-80 transition-opacity">
+  <img src="old.webp" alt="Logo" class="h-10 w-10 rounded-full object-cover" />
+  <div>
+    <h1 class="text-2xl font-bold text-white">OLD FRAGGERS</h1>
+    <p class="text-xs text-purple-300 -mt-1">COMMUNITY</p>
+  </div>
+</a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center space-x-8">
+                    <a href="index.html" class="flex items-center space-x-2 text-sm font-medium text-slate-300 hover:text-purple-400 transition-colors">
+                        <i data-lucide="home" class="w-4 h-4"></i>
+                        <span>Ana Sayfa</span>
+                    </a>
+                    <a href="streamers.html" class="flex items-center space-x-2 text-sm font-medium text-slate-300 hover:text-purple-400 transition-colors">
+                        <i data-lucide="users" class="w-4 h-4"></i>
+                        <span>Yayıncılar</span>
+                    </a>
+                    <a href="about.html" class="flex items-center space-x-2 text-sm font-medium text-purple-400">
+                        <i data-lucide="info" class="w-4 h-4"></i>
+                        <span>Hakkımızda</span>
+                    </a>
+                    
+                    <a href="https://discord.gg/oldfraggers" target="_blank" class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 flex items-center">
+                        <i data-lucide="message-circle" class="w-4 h-4 mr-2"></i>
+                        Discord
+                    </a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="lg:hidden text-white">
+                    <i data-lucide="menu" class="h-6 w-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="lg:hidden hidden bg-slate-900 border-t border-slate-800">
+            <div class="container mx-auto px-4 py-6 space-y-4">
+                <a href="index.html" class="flex items-center space-x-3 text-lg font-medium text-slate-300 hover:text-purple-400 transition-colors">
+                    <i data-lucide="home" class="w-5 h-5"></i>
+                    <span>Ana Sayfa</span>
+                </a>
+                <a href="streamers.html" class="flex items-center space-x-3 text-lg font-medium text-slate-300 hover:text-purple-400 transition-colors">
+                    <i data-lucide="users" class="w-5 h-5"></i>
+                    <span>Yayıncılar</span>
+                </a>
+                <a href="about.html" class="flex items-center space-x-3 text-lg font-medium text-purple-400">
+                    <i data-lucide="info" class="w-5 h-5"></i>
+                    <span>Hakkımızda</span>
+                </a>
+                
+                <a href="https://discord.gg/oldfraggers" target="_blank" class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white w-full px-4 py-3 rounded-md text-lg font-medium transition-all duration-300 flex items-center justify-center">
+                    <i data-lucide="message-circle" class="w-4 h-4 mr-2"></i>
+                    Discord'a Katıl
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="min-h-screen py-8">
+        <div class="container mx-auto px-4">
+            <!-- Hero Section -->
+            <div class="text-center mb-16">
+                <span class="mb-6 bg-purple-600/20 text-purple-300 border border-purple-600/30 text-sm px-4 py-2 rounded-full inline-block">🎮 Hakkımızda</span>
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    Old Fraggers Community
+                </h1>
+                <p class="text-xl md:text-2xl text-slate-400 max-w-4xl mx-auto leading-relaxed">
+                    2019 yılından beri gaming dünyasında faaliyet gösteren, deneyimli oyuncuların buluşma noktası olan
+                    profesyonel bir topluluk. Tutkumuz gaming, hedefimiz mükemmellik.
+                </p>
+            </div>
+
+            <!-- Mission & Vision -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20">
+                <div class="bg-gradient-to-br from-purple-900/20 to-purple-800/20 border border-purple-600/30 rounded-lg p-6">
+                    <div class="mb-4">
+                        <h2 class="text-2xl text-white flex items-center">
+                            <i data-lucide="target" class="w-8 h-8 text-purple-400 mr-3"></i>
+                            Misyonumuz
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="text-slate-300 leading-relaxed">
+                            Gaming topluluğuna kaliteli içerik sunarak, oyuncuların becerilerini geliştirmelerine yardımcı olmak ve
+                            güçlü bir topluluk oluşturmak. Her seviyeden oyuncuya değer katacak deneyimler yaşatmak.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-pink-900/20 to-pink-800/20 border border-pink-600/30 rounded-lg p-6">
+                    <div class="mb-4">
+                        <h2 class="text-2xl text-white flex items-center">
+                            <i data-lucide="star" class="w-8 h-8 text-pink-400 mr-3"></i>
+                            Vizyonumuz
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="text-slate-300 leading-relaxed">
+                            Türkiye'nin en büyük ve en saygın gaming topluluğu olmak. Esports dünyasında söz sahibi bir marka haline
+                            gelerek, uluslararası arenada ülkemizi temsil etmek.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Values -->
+            <div class="mb-20">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Değerlerimiz</h2>
+                    <p class="text-slate-400 text-lg max-w-2xl mx-auto">
+                        Old Fraggers Community'yi ayakta tutan temel değerler
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-slate-800/50 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:transform hover:scale-105 group rounded-lg p-6">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-yellow-400/10 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                                <i data-lucide="trophy" class="w-8 h-8 text-yellow-400"></i>
+                            </div>
+                            <h3 class="text-white text-lg mb-4">Mükemmellik</h3>
+                        </div>
+                        <div>
+                            <p class="text-slate-400 text-sm text-center leading-relaxed">Her zaman en iyiyi hedefler, kaliteli içerik üretiriz.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-800/50 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:transform hover:scale-105 group rounded-lg p-6">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-purple-400/10 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                                <i data-lucide="users" class="w-8 h-8 text-purple-400"></i>
+                            </div>
+                            <h3 class="text-white text-lg mb-4">Topluluk</h3>
+                        </div>
+                        <div>
+                            <p class="text-slate-400 text-sm text-center leading-relaxed">Güçlü bir topluluk oluşturarak birlikte büyürüz.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-800/50 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:transform hover:scale-105 group rounded-lg p-6">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-red-400/10 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                                <i data-lucide="heart" class="w-8 h-8 text-red-400"></i>
+                            </div>
+                            <h3 class="text-white text-lg mb-4">Tutku</h3>
+                        </div>
+                        <div>
+                            <p class="text-slate-400 text-sm text-center leading-relaxed">Gaming tutkumuz her yaptığımızda kendini gösterir.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-800/50 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:transform hover:scale-105 group rounded-lg p-6">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-blue-400/10 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                                <i data-lucide="target" class="w-8 h-8 text-blue-400"></i>
+                            </div>
+                            <h3 class="text-white text-lg mb-4">Hedef Odaklılık</h3>
+                        </div>
+                        <div>
+                            <p class="text-slate-400 text-sm text-center leading-relaxed">Belirlediğimiz hedeflere ulaşmak için kararlıyız.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Ekibimiz -->
+<section class="py-20 px-4 bg-slate-900 border-t border-slate-800">
+  <div class="max-w-6xl mx-auto text-center mb-12">
+    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Bu Siteyi Hazırlayanlar</h2>
+    <p class="text-slate-400 text-lg max-w-2xl mx-auto">
+      Old Fraggers sitesini tasarlayan ve kodlayan ekip üyeleri
+    </p>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+    <!-- Üye 1 -->
+    <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-6 text-center hover:scale-105 transition duration-300">
+      <img src="rafa.jpg" alt="FrankzFPS" class="w-24 h-24 rounded-full border-4 border-purple-600/30 mx-auto mb-4">
+      <h3 class="text-white text-xl font-semibold">Radexx (Emir)</h3>
+      <p class="text-purple-400 mb-2">Frontend Geliştirici & Yayıncı</p>
+      <p class="text-slate-400 text-sm mb-4">Site arayüzü ve yayıncı profilleri tasarımıyla ilgilendi.</p>
+      <div class="flex justify-center gap-4">
+        <a href="https://www.youtube.com/@Fronzy-cs" target="_blank"><i data-lucide="youtube" class="w-5 h-5 text-red-500 hover:text-white"></i></a>
+        
+      </div>
+    </div>
+
+    <!-- Üye 2 -->
+    <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-6 text-center hover:scale-105 transition duration-300">
+      <img src="faruk.webp" alt="meowLeo" class="w-24 h-24 rounded-full border-4 border-purple-600/30 mx-auto mb-4">
+      <h3 class="text-white text-xl font-semibold">Groov (Faruk)</h3>
+      <p class="text-purple-400 mb-2">İçerik Üreticisi & Teknik Destek</p>
+      <p class="text-slate-400 text-sm mb-4">Veri hazırlığı, içerik planlaması ve geri bildirimlerden sorumluydu.</p>
+      <div class="flex justify-center gap-4">
+        <a href="https://www.youtube.com/@YTmeowLeo" target="_blank"><i data-lucide="youtube" class="w-5 h-5 text-red-500 hover:text-white"></i></a>
+        <a href="https://www.tiktok.com/@meowleoprime" target="_blank"><i data-lucide="instagram" class="w-5 h-5 text-pink-400 hover:text-white"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  lucide.createIcons();
+</script>
+
+</body>
+</head>
+            
+
+            
